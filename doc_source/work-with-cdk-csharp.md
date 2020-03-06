@@ -116,7 +116,7 @@ class MimeBucketProps : BucketProps {
 
 // hypothetical bucket that enforces MIME type of objects inside it
 class MimeBucket : Bucket {
-     public MimeBucket(final Construct scope, final string id, final MimeBucketProps props=null) : base(scope, id, props) {
+     public MimeBucket(Construct scope, string id, MimeBucketProps props=null) : base(scope, id, props) {
          // ...
      }
 }
